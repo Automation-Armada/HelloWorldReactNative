@@ -30,8 +30,8 @@ jobs:
     - name: Install react-native-image-picker react-native-tflite
       run: npm install react-native-image-picker react-native-tflite
 
-    # - name: Install pod-install
-    #   run: npx pod-install
+    - name: Install pod-install
+      run: npx pod-install
 
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
