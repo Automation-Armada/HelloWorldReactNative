@@ -27,8 +27,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Install react-native-image-picker react-native-tflite
-      run: npm install react-native-image-picker react-native-tflite
+    # - name: Install react-native-image-picker react-native-tflite
+    #   run: npm install react-native-image-picker react-native-tflite
 
     - name: Install pod-install
       run: npx pod-install
