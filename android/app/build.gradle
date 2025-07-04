@@ -111,6 +111,10 @@ android {
             dimension "react-native-camera"
         }
     }
+    aaptOptions {
+        noCompress "tflite"
+    }
+
 }
 
 dependencies {
